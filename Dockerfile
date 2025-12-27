@@ -1,8 +1,8 @@
 #uygulamanın çalışması için JRE
-FROM amazoncorretto:17
+FROM amazoncorretto:17-alpine
 
 #projenin JAR dosyası burada
-ARG JAR_FILE=target/devops_001_web-1.0.0.jar
+ARG JAR_FILE=target/*.jar
 
 #projenin JAR halini docker'a kopyala
 COPY ${JAR_FILE} my_app.jar
