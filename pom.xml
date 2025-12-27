@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.erdinc</groupId>
     <artifactId>devops_001_web</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>devops_001_web</name>
     <description>devops_001_web</description>
     <url/>
